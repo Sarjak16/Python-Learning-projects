@@ -42,7 +42,7 @@ while True:
        else:
            print("you are below the number")
         
-print("you got it in ",guesses , "guesses")
+print("you got it in ", guesses, "guesses")
         
     
     
