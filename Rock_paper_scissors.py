@@ -28,10 +28,10 @@ while True:
         print("you won!")
         user_wins += 1
         
-#     else:
-#         print("you lost!")
-#         computer_wins +=1
-# print("you won!", user_wins, "times" )
-# print("computer won!", computer_wins, "times")
+    else:
+        print("you lost!")
+        computer_wins +=1
+print("you won!", user_wins, "times" )
+print("computer won!", computer_wins, "times")
 print ("Goodbye!")    
     
