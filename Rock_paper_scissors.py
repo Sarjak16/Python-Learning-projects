@@ -18,7 +18,8 @@ while True:
     computer_pick = options[random_number]
     print("computer_pick: ", computer_pick+ ".")
     
-    # if user_input=="rock" and computer_pick=="scissors":
+    if user_input=="rock" and computer_pick=="scissors":
+        print("you won!")
 
 print ("Goodbye!")    
     
