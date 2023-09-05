@@ -1,5 +1,5 @@
 name= input("Type your name: ")
-print(" We welcome", name, "to  the adventure game world. ")
+print(" We welcome", name, "to  the adventure game world. you should find a gold from a man............ ")
 
 answer= input("you are on a dirt road, it has come to an end you can go either to left or right. which way would you like to go? ").lower()
 if answer=="left":
@@ -31,3 +31,5 @@ elif answer=="right":
         print("Not a valid option.....You loose!!!")
 else:
     print("not a valid answer, you loose!!!")
+    
+print("Thank you for trying.....")
