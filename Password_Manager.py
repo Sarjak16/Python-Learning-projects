@@ -1,18 +1,26 @@
-pwd= input("What is the master password? ")
+from cryptography.fernet import Fernet
 
+master_pwd= input("What is the master password? ")
+
+# def write_key():
+#     with open ("key.key", "wb") as key_file:
+#         key_file.write(key)
+
+write_key()
 def view():
     with open('password.txt', 'r') as f:
         for line in f.readlines():
             data= line.rstrip()
             user, passw= data.split("|")
             print ("user: ", user, "password:", passw)
+            
 
 def add():
     name= input("Account name: ")
     pwd= input("password: ")
     
     with open('password.txt', 'a') as f:
-        f.write(name + "|"+pwd "\n")
+        f.write(name + "|"+pwd + "\n")
     
     
     
